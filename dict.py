@@ -11,11 +11,7 @@ human = {
 }
 keys = human.keys()  # получаем ключи словаря
 
-while True:
-    input_key = input("Введите ключ (для выхода введите 'exit'): ")
-    if input_key == "exit":
-        break
-
+def check_key_existence(input_key):
     found_key = False  # флаг, указывающий, был ли найден ключ "data"
 
     for key in keys:
@@ -26,4 +22,13 @@ while True:
 
     if not found_key:
         print("Данного ключа не существует")  # выводим сообщение, если ключ не найден
+
+while True:
+        input_key = input("Введите ключ (для выхода введите 'exit'): ")
+        check_key_existence(input_key)
+        if input_key == "exit":
+            break
+
+
+
 
