@@ -19,7 +19,7 @@ while True:
     found_key = False  # флаг, указывающий, был ли найден ключ "data"
 
     for key in keys:
-        if key == input_key:
+        if key == input_key or int(input_key):
             print("данный ключ имеется")
             found_key = True  # устанавливаем флаг в True, если ключ найден
             break  # выходим из цикла, если ключ найден
