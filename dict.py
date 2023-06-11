@@ -26,5 +26,3 @@ while True:
     if not found_key:
         print("Данного ключа не существует")  # выводим сообщение, если ключ не найден
 
-#КОММЕНТАРИЙ
-#проверка на длинну комментария commitaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
