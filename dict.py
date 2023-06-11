@@ -6,7 +6,8 @@ human = {
     "name": "John",
     "age": "18",
     "id": "188989",
-    "team": ["John", "john2", "john3"]
+    "team": ["John", "john2", "john3"],
+    1: ["John", "john2", "john3"],
 }
 keys = human.keys()  # получаем ключи словаря
 
